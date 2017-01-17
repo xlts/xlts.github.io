@@ -3,6 +3,17 @@ layout: default
 title: Mariusz Hausenplas
 ---
 <div class="blurb">
-  <h1>Header</h1>
-  <p>Paragraph goes here</p>
+  <h1>mariusz hausenplas</h1>
+  <h2>warsaw, poland</h2>
+  <p>
+	  <div>ruby on rails developer @ <a href="https://koleo.pl">koleo</a></div>
+	  <div>m.sc. student (computer science) @ <a href="http://www.pja.edu.pl/en/">polish-japanese academy of it</a></div>
+  </p>
+  <h1>posts</h1>
+  <ul class="posts">
+
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
 </div><!-- /.blurb -->
