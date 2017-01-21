@@ -1,3 +1,4 @@
 name: Mariusz Hausenplas
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
+google_analytics: UA-90666463-1
