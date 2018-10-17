@@ -23,6 +23,7 @@ a:hover {
 h1 {
     font-size: 1em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    margin-top: 0px;
 }
 
 h2 {
@@ -34,6 +35,15 @@ p {
     line-height: 1.1em;
     color: #333;
 }
+
+.position-line {
+    font-size: 85%;
+}
+
+.position-line-header {
+    font-size: 75%;
+}
+
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
@@ -43,6 +53,10 @@ ul.posts li {
     list-style: none;
 }
 
+.photo {
+    margin-top: 3px;
+}
+
 /*.photo-info {
     display: flex;
 }
@@ -50,6 +64,6 @@ ul.posts li {
 
 .info {
     padding: 1.1em;
-    margin: 0.4em; 
+    margin: 0.4em;
 }*/
 
